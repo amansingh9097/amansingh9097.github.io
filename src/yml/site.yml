@@ -1,0 +1,20 @@
+name: Aman Singh
+title: Portfolio
+description: An online portfolio to showcase the kind of works done across various technologies.
+tags:
+  - programming
+  - machine-learning
+  - deep-learning
+  - data-analysis
+  - data-visualization
+show_hero: false
+menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+
+email: amansingh9097@gmail.com
+disqus_username: amansingh9097

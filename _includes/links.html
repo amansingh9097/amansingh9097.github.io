@@ -1,0 +1,15 @@
+<ul>
+  {% for item in site.menu %}
+    {% if item.title and item.url %}
+      {% if item.title != 'About' %}
+        <li>
+          <a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+        </li>
+      {% else %}
+        <li>
+          <a href="https://aman-singh.com">About</a>
+        </li>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</ul>
