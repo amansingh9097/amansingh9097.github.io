@@ -7,7 +7,7 @@ tags:
   - deep-learning
   - data-analysis
   - data-visualization
-show_hero: false
+show_hero: true
 menu:
   - title: Home
     url: /
